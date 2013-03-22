@@ -5,9 +5,6 @@ class Janrain:
     def __init__(self, rootDomain, api_key):
         self.janrainDomain = "https://%s.rpxnow.com" % rootDomain
 
-    def janrainRequest(*args):
-        
-
     class EngageClient:
         """This client enables you to interact with Janrain's Engage API."""
         pass
